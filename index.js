@@ -1,14 +1,14 @@
 const express = require("express");
 const app = express();
 const http = require("http");
-const PORT = 5500;
+//const PORT = 5500;
 
 // Create Express http server
 const server = http.createServer(app);
 
 // Server listens on port
 server.listen(PORT, () => {
-  console.log(`listening on *:${PORT}`);
+  console.log(`listening on *:${http}`);
 });
 
 // Initialize Socket IO on server
